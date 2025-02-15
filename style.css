@@ -1,0 +1,54 @@
+img {
+    width: 100%;
+}
+body {
+    background-image: url("Worldmap.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 70px;
+    color: red;
+}
+
+a:hover {
+    padding: 2px;
+    margin: 3px;
+    color: aqua;
+    border: 5px solid green ;
+}
+.tarolo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+#Eszakamerika {
+margin-top: 70px;
+margin-left: 300px;
+}
+#europa {
+    margin-top: 50px;
+}   
+#azsia {
+    margin-top: 80px;
+    margin-right: 300px;
+}
+#Delamerika {
+    margin-top: 250px;
+    margin-left: 500px;
+}
+#afrika {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+#oceania {
+    margin-top: 350px;
+    margin-right: 0px;
+}
+a {
+    font-size: 40px;
+}
