@@ -4,9 +4,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat
 }
-img {
-    width: 100%;
-}
+
 h1 {
     text-align: center;
     text-transform: capitalize;
@@ -19,39 +17,56 @@ a {
 }
 .tarolo {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    gap: 10px;
+    grid-template-columns: 1fr 1fr   ;
 }
 .Anglia {
     margin: 2px;
     padding: 3px;
-    background-color:cyan;
-    border: 5px solid green;
+    background-image: url(boohwoer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 750px;
+    height: 500px;
+    border: 5px solid purple;
+    color:darkblue;
 }
 .Baugette {
     margin: 2px;
     padding: 3px;
-    background-color: blue;
+    background-image: url(Baugette.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 750px;
+    height: 500px;
     border: 5px solid purple;
-    color:lightgreen;
+    color:darkblue;
 }
 .Nemet {
     margin: 2px;
     padding: 3px;
-    background-color: blue;
+    background-image: url(germania.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 750px;
+    height: 500px;
     border: 5px solid purple;
-    color:lightgreen;
+    color:aqua;
 }
 .Magyar {
     margin: 2px;
     padding: 3px;
-    background-color:cyan;
-    border: 5px solid green;
+    background-image: url(parlament.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 750px;
+    height: 500px;
+    border: 5px solid purple;
+    color:lightblue;
 }
-@media screen and (max-width:1500px) {
+@media screen and (max-width:800px) {
     .tarolo {
         display: grid;
         grid-template-columns: 1fr;
     }
-    
+
 }
